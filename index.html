@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GymZy - Legal Documents</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            background-color: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            padding: 50px;
+            text-align: center;
+        }
+        h1 {
+            color: #6200EE;
+            font-size: 3em;
+            margin-bottom: 10px;
+            font-weight: 900;
+        }
+        .tagline {
+            color: #666;
+            font-size: 1.2em;
+            margin-bottom: 40px;
+        }
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .link-card {
+            background-color: #f5f5f5;
+            border-radius: 12px;
+            padding: 25px;
+            text-decoration: none;
+            color: #333;
+            transition: transform 0.3s, box-shadow 0.3s;
+            display: block;
+        }
+        .link-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+            background-color: #6200EE;
+            color: white;
+        }
+        .link-card h2 {
+            font-size: 1.5em;
+            margin-bottom: 8px;
+        }
+        .link-card p {
+            color: inherit;
+            opacity: 0.8;
+        }
+        .footer {
+            margin-top: 40px;
+            color: #999;
+            font-size: 0.9em;
+        }
+        .footer a {
+            color: #6200EE;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 768px) {
+            .container {
+                padding: 30px;
+            }
+            h1 {
+                font-size: 2.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Gym<strong style="font-size: 1.15em;">Z</strong>y</h1>
+        <p class="tagline">Track your workouts, achieve your goals</p>
+        
+        <div class="links">
+            <a href="privacy-policy.html" class="link-card">
+                <h2>📄 Privacy Policy</h2>
+                <p>How we collect, use, and protect your data</p>
+            </a>
+            
+            <a href="terms-of-service.html" class="link-card">
+                <h2>📋 Terms of Service</h2>
+                <p>Rules and guidelines for using GymZy</p>
+            </a>
+        </div>
+
+        <div class="footer">
+            <p>Questions? Contact us at <a href="mailto:teamgymzy@gmail.com">teamgymzy@gmail.com</a></p>
+            <p style="margin-top: 10px;">© 2025 GymZy • Open Source • MIT License</p>
+        </div>
+    </div>
+</body>
+</html>
